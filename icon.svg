@@ -1,29 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Azure Fish Theme">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Sci-Fi Splash theme">
   <defs>
     <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#F4FBFF"/>
-      <stop offset="55%" stop-color="#CFE9FC"/>
-      <stop offset="100%" stop-color="#A9D4F4"/>
+      <stop offset="0%" stop-color="#FDF4F8"/>
+      <stop offset="55%" stop-color="#EAE2FC"/>
+      <stop offset="100%" stop-color="#D3DEFA"/>
     </linearGradient>
-    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#F7E6BE"/>
-      <stop offset="100%" stop-color="#DCAF63"/>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2A7B4"/>
+      <stop offset="55%" stop-color="#7C6CF2"/>
+      <stop offset="100%" stop-color="#5B8DEF"/>
     </linearGradient>
     <linearGradient id="fish" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#5AA9E4"/>
-      <stop offset="100%" stop-color="#2E7EBC"/>
+      <stop offset="0%" stop-color="#F6BCC7"/>
+      <stop offset="100%" stop-color="#8F86F4"/>
     </linearGradient>
   </defs>
   <rect x="1" y="1" width="62" height="62" rx="16" fill="url(#sea)"/>
-  <rect x="2.5" y="2.5" width="59" height="59" rx="14.5" fill="none" stroke="url(#gold)" stroke-width="1.6"/>
-  <path d="M20 34c-4-6-8-9-11-8 2 3 3 5 3 8s-1 5-3 8c3 1 7-2 11-8Z" fill="url(#gold)" opacity=".9"/>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="14.5" fill="none" stroke="url(#brand)" stroke-width="1.6"/>
+  <path d="M20 34c-4-6-8-9-11-8 2 3 3 5 3 8s-1 5-3 8c3 1 7-2 11-8Z" fill="url(#brand)" opacity=".9"/>
   <ellipse cx="34" cy="34" rx="15" ry="12" fill="url(#fish)"/>
-  <ellipse cx="35" cy="38" rx="10" ry="6" fill="#EAF7FF" opacity=".85"/>
+  <ellipse cx="35" cy="38" rx="10" ry="6" fill="#FFF6FA" opacity=".85"/>
   <circle cx="41" cy="30" r="3.4" fill="#FFFFFF"/>
-  <circle cx="41.6" cy="30.6" r="1.9" fill="#17364F"/>
+  <circle cx="41.6" cy="30.6" r="1.9" fill="#3A2E63"/>
   <circle cx="29" cy="30" r="2" fill="#FFFFFF" opacity=".85"/>
-  <ellipse cx="46" cy="38" rx="2.6" ry="1.4" fill="#F6C7BC" opacity=".8"/>
-  <circle cx="52" cy="18" r="2.4" fill="none" stroke="#FFFFFF" stroke-opacity=".85" stroke-width="1.4"/>
+  <ellipse cx="46" cy="38" rx="2.6" ry="1.4" fill="#F7C0CB" opacity=".8"/>
+  <circle cx="52" cy="18" r="2.4" fill="none" stroke="#FFFFFF" stroke-opacity=".9" stroke-width="1.4"/>
   <circle cx="57" cy="13" r="1.5" fill="none" stroke="#FFFFFF" stroke-opacity=".7" stroke-width="1.2"/>
-  <path d="M16 13l1.6 4 4 1.6-4 1.6L16 24l-1.6-3.8-4-1.6 4-1.6Z" fill="url(#gold)" opacity=".85"/>
+  <path d="M16 13l1.6 4 4 1.6-4 1.6L16 24l-1.6-3.8-4-1.6 4-1.6Z" fill="url(#brand)" opacity=".85"/>
 </svg>

@@ -1,0 +1,13 @@
+{
+  "meta.title": "Sci-Fi Splash",
+  "meta.description": "Light neumorphic theme: pale pink, lilac and blue glass cards with a fish watermark and a gradient logo, shipped with a dark sci-fi boot animation.",
+  "brand": "DEEPSEEK HARNESS",
+  "subtitle": "COGNITIVE INTERFACE",
+  "phase.init": "INITIALIZING",
+  "phase.ready": "SYSTEM READY",
+  "meta.serial": "SN 7F-02 / CORE 01",
+  "meta.interface": "NEURAL LINK",
+  "meta.build": "BUILD 0.2.1",
+  "meta.skip": "CLICK TO SKIP",
+  "aria.loading": "DeepSeek Harness is starting"
+}

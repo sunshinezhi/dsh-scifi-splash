@@ -1,0 +1,5 @@
+- insert:
+    - id: scifi-boot
+      name: 'dsh-scifi-splash/boot'
+    - id: scifi-blue
+      name: 'dsh-scifi-splash'

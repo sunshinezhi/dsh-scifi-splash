@@ -1,0 +1,40 @@
+{
+  "name": "dsh-scifi-splash",
+  "version": "1.2.0",
+  "description": "Light neumorphic UI for DeepSeek Harness: soft pastel glass cards, a custom gradient logo, a pale fish watermark and a dark sci-fi boot animation.",
+  "type": "module",
+  "icon": "icon.svg",
+  "license": "MIT",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "theme",
+    "neumorphism",
+    "boot-animation"
+  ],
+  "exports": {
+    ".": "./host.js",
+    "./boot": "./boot.js",
+    "./client": "./blue-ui.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "host.js",
+    "boot.js",
+    "splash.js",
+    "blue-ui.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}
